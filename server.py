@@ -126,4 +126,4 @@ def delete(id):
     return redirect('/')
 
 
-app.run(port = 5001, debug = True)
+app.run(host='0.0.0.0')
